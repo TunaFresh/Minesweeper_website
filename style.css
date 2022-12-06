@@ -1,0 +1,45 @@
+
+body{
+    gap: 5px;
+    padding: 5px;
+}
+header{
+    font-size: 45px;
+    background-color: lime;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+#difselect{
+    display: flex;
+    justify-content: center;
+    background-color: magenta;
+}
+#game{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px black solid;
+    border-radius: 10px;
+
+}
+
+#game button{
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    }
+#start button{
+    width: 100px;
+    height: 30px;
+}
+div{
+    padding: 5px;
+    gap: 10px;
+}
+#winlose{
+    position: absolute;
+    top: 110px;
+    left:150px;
+}
